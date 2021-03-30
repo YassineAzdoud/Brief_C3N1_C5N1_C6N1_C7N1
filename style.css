@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e5e5e5;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #111418;
+    padding: 5px 15px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 19%);
+}
+.logo img {
+    height: 60px;
+}
+section {
+    height: calc(100vh - 70px);
+    display: flex;
+    
+}
+.sidebar{
+    flex: 2;
+    background-color: #fff;
+    height: 100%;
+}
+.admin_content{
+    flex: 8;
+    height: 100%;
+}
+.staistique {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.box {
+    width: 27%;
+    background-color: #fff;
+    height: 30px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 19%);
+    color: #fff;
+    padding: 2% 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.box p{
+    font-size: 20px;
+}
+.box span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.total_number {
+    background-image: linear-gradient( 
+-20deg
+ , #2b5876 0%, #4e4376 100%) !important;
+}
+.number_multidomain {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%) !important;
+}
+.training {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%) !important;
+}
+.list {
+    margin: 10%;
+}
+.list li {
+    font-size: 24px;
+    text-align: center;
+    list-style: none;
+    margin-top: 11px;
+    padding: 3%;
+}
+.list li:hover {
+    background-color: #e0f3ff;
+}
+.list li a {
+    text-decoration: none;
+    color: #343a40;
+    padding: 6%;
+}
